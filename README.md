@@ -11,3 +11,4 @@ Currently, two official plugins are available:
 "# nifled-porfolio" 
 "# nifled-portfolio" 
 "# nifled-portfolio" 
+"# sespene-portfolio" 
