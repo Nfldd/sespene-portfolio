@@ -1,0 +1,27 @@
+.text-container, h1{
+ color: gray;
+}
+
+.hero-image, img{
+  width: 300px;
+  position:absolute;
+  top: 80px;
+  left: 450px;
+}
+.text-container,h1{
+ position:absolute;
+ top:150px;
+ left:230px;
+}
+.text-container,p{
+  position:absolute;
+  top:174px;
+  left:250px;
+ }
+ 
+ .text-container,button{
+  position:absolute;
+  top:210px;
+  left:306px;
+  border-radius: 5px;
+ }
