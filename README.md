@@ -9,3 +9,5 @@ Currently, two official plugins are available:
 "# nifled-porfolio" 
 "# nifled-porfolio" 
 "# nifled-porfolio" 
+"# nifled-portfolio" 
+"# nifled-portfolio" 
