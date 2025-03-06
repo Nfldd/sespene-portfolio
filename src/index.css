@@ -1,12 +1,14 @@
 .text-container, h1{
  color: gray;
+ position: absolute;
+ right: 100px;
 }
 
 .hero-image, img{
   width: 300px;
   position:absolute;
-  top: 80px;
-  left: 450px;
+  top: 100px;
+  left: 350px;
 }
 .text-container,h1{
  position:absolute;
@@ -25,3 +27,39 @@
   left:306px;
   border-radius: 5px;
  }
+
+ .nav-link {
+  list-style: none;
+  position: relative;
+  font-weight: 600;
+  color: #333;
+  transition: color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: #3b82f6; /* Blue hover */
+}
+
+.nav-link::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #3b82f6;
+  position: absolute;
+  bottom: -3px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.navbar_menu{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: -10px;
+}
