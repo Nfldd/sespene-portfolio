@@ -8,8 +8,6 @@ import Resume from "./Resume.jsx";
 import { Routes, Route } from "react-router-dom";
 
 
-
-
 function App() {
   return(
     <>
