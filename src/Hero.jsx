@@ -1,5 +1,6 @@
 import React from 'react'
 import meImages from './images/me.jpg'
+
 function Hero (){
   return(
     <section className="Hero-section">
@@ -15,6 +16,7 @@ function Hero (){
       </div>
     </div>
     </section>
+
   );
 }
 
