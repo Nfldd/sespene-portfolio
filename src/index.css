@@ -6,22 +6,29 @@
 }
 
 .hero-image, img {
-  width: 300px;
+  width: 550px;
   position: absolute;
   top: 100px;
   left: 350px;
+  border-radius: 15%;
+ 
 }
 
 .text-container, h1 {
   position: absolute;
+  font-size: 170%;
   top: 150px;
-  left: 230px;
+  left: -10px;
+  font-weight:bold;
 }
+
 
 .text-container, p {
   position: absolute;
-  top: 174px;
-  left: 250px;
+  top: 195px;
+  left: -11px;
+  font-size:115%;
+  font-weight: bold;
 }
 
 .text-container, button {
@@ -36,7 +43,8 @@
   text-decoration: none;
   position: relative;
   font-weight: 600;
-  color: rgb(206, 194, 194);
+  font-size: large;
+  color: rgb(164, 158, 158);
   transition: color 0.3s ease-in-out;
   cursor: pointer;
 }
@@ -65,7 +73,7 @@
   display: flex;
   flex-direction: row;
   gap: 1rem;
-  padding: 10px;
+  padding: 5px;
 }
 
 /* Responsive Design */
@@ -85,7 +93,7 @@
   }
 
   .navbar_menu {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 }
@@ -111,6 +119,4 @@
 body {
     background-color: black;
 }
-
-
 
