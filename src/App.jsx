@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from './Hero.jsx'
-import Navbar from './navbar.jsx'
+import Navbar from './Navbar.jsx'
 import Home from "./Home.jsx";
 import AboutMe from "./AboutMe.jsx";
 import Tour from "./Tour.jsx"; 
