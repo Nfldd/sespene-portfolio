@@ -1,0 +1,156 @@
+.about-me-page {
+  color:antiquewhite;
+  padding: 2rem;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 1.2rem;
+}
+
+
+.about-me-projects,
+.about-me-experience {
+  margin-bottom: 3rem;
+  padding: 1.5rem;
+  background-color: #1a1a1a; /* Dark background for sections */
+  border-radius: 8px;
+}
+
+
+
+.about-me-projects h2,
+.about-me-experience h2 {
+  color: gray;
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.about-me-intro h2 {
+  color: gray;
+  font-size: 2rem;
+  margin-top: -10rem;
+  margin-bottom: 0.5rem; /* Reduced from 1.5rem */
+  text-align:left;
+}
+.about-me-intro p {
+  color: antiquewhite;
+  margin-top: -10rem;
+  line-height: 1.6;
+  text-align: justify;
+  position: relative;
+  padding-bottom: 20rem;
+}
+.ALUMNI{
+  width: 550px; 
+  height: 280px;
+  margin-top: 50px; 
+  margin-bottom: -300px;
+  margin-left: -300px; 
+  display: block; 
+  position: relative;
+  border-radius: 10px;
+}
+.ALUMNI:hover{
+  transform: translateY(-60px);
+  cursor: pointer;
+  
+}
+.ALUMNI2{
+  width: 600px; 
+  height: 280px;
+  margin-top: 20px; 
+  margin-bottom: -330px;
+  margin-left: 300px; 
+  display: block; 
+  position: relative;
+  border-radius: 10px;
+}
+.ALUMNI2:hover{
+  transform: translateY(-60px);
+  cursor: pointer;
+}
+/* Projects Section */
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.project-card {
+  background-color: #222;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+
+
+.project-card h3 {
+  color: antiquewhite;
+  padding: 1rem;
+  margin: 0;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.project-card p {
+  color: #ccc;
+  padding: 0 1rem 1rem;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.project-links {
+  background-color: #333;
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid #444;
+}
+
+.project-links a {
+  color: #eee;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  border-radius: 5px;
+  background-color: #555;
+  opacity: 100;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.project-links a:hover {
+  background-color: #777;
+}
+
+/* Experience Section */
+.experience-list {
+  margin-top: 1.5rem;
+}
+
+.experience-item {
+  margin-bottom: rem;
+  padding: 1rem;
+  border-left: 3px solid #555;
+}
+
+.experience-item h3 {
+  color: #ed4646;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.experience-item .experience-company {
+  color: #ccc;
+  font-style: italic;
+  margin-bottom: 0.8rem;
+}
+
+.experience-item p {
+  line-height: 1.6;
+}

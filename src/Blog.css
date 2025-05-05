@@ -1,0 +1,87 @@
+.blog-page {
+  padding: 20px;
+  color: #333; /* Dark text for a light background */
+  font-family: sans-serif;
+}
+
+.blog-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.blog-header h1 {
+  font-size: 2.5em;
+  color: gray; /* Example primary color */
+}
+
+.blog-post-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* This will try to create 4 equal columns */
+  gap: 20px; /* Adjust the gap between cards if needed */
+}
+
+.blog-post-card {
+  background-color: gray;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease-in-out;
+}
+
+.blog-post-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.card-image {
+  width: 100%;
+  height: auto; /* Adjust as needed or set a fixed height */
+  overflow: hidden;
+}
+
+.card-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Ensure image covers the area without distortion */
+}
+
+.card-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.post-category {
+  font-size: 0.9em;
+  color: BLACK; /* Grayish color */
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.card-content h3 {
+  margin-top: 0;
+  font-size: 1.5em;
+  color: #212529; /* Darker text */
+}
+
+.post-excerpt {
+  color: #495057; /* Slightly lighter dark text */
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.read-more-link {
+  display: inline-block;
+  color: antiquewhite;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+.read-more-link:hover {
+  color:BLACK;
+}

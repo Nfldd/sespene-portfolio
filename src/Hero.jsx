@@ -14,6 +14,7 @@ function Hero (){
         <img src={meImages} alt="life's Motto"/>
 
       </div>
+      
     </div>
     </section>
 

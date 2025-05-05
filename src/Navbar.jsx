@@ -10,8 +10,8 @@ export const Navbar = () => {
     <ul className="navbar_menu">
           <Link to='/'className="nav-link">𝙷𝙾𝙼𝙴</Link>
           <Link to='/about' className="nav-link">𝙰𝙱𝙾𝚄𝚃 𝙼𝙴</Link>
-          <Link to='/tour' className="nav-link">𝚃𝙾𝚄𝚁</Link>
-          <Link to='/resume' className="nav-link">𝚁𝙴𝚂𝚄𝙼𝙴</Link>       
+          <Link to='/blog' className="nav-link">BLOG</Link>
+          <Link to='/contact' className="nav-link">CONTACT</Link>       
     </ul>
     </nav>
     
