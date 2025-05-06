@@ -2,10 +2,10 @@ import React from "react";
 import Hero from './Hero.jsx'
 import Navbar from './Navbar.jsx'
 import Home from "./Home.jsx";
-import AboutMe from "./AboutMe.jsx";
-import Blog from "./Blog.jsx"; 
+import AboutMe from "./AboutMe.jsx"; 
 import Contact from "./Contact.jsx";
 import Aurora from './Aurora.jsx'
+import Blog from './Blog.jsx'
 import { Routes, Route } from "react-router-dom";
 
 

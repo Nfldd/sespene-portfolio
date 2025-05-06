@@ -10,7 +10,10 @@ export const Navbar = () => {
     <ul className="navbar_menu">
           <Link to='/'className="nav-link">𝙷𝙾𝙼𝙴</Link>
           <Link to='/about' className="nav-link">𝙰𝙱𝙾𝚄𝚃 𝙼𝙴</Link>
-          <Link to='/blog' className="nav-link">BLOG</Link>
+          <a href="https://nifled-blog.netlify.app/" className="nav-link" target="_blank" rel="noopener noreferrer">
+  BLOG
+</a>
+
           <Link to='/contact' className="nav-link">CONTACT</Link>       
     </ul>
     </nav>
