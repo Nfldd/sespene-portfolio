@@ -14,7 +14,7 @@ export const Navbar = () => {
   BLOG
 </a>
 
-          <Link to='/contact' className="nav-link">CONTACT</Link>       
+          <Link to='/contact' className="nav-link"></Link>       
     </ul>
     </nav>
     

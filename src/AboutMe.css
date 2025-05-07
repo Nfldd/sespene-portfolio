@@ -154,3 +154,53 @@
 .experience-item p {
   line-height: 1.6;
 }
+
+.about-me-certificates{
+  margin-top: 30rem;
+  color:gray;
+  text-align: center;
+}
+
+.certificate-1{
+  width: 6  00px; 
+  height: 280px;
+  margin-top: 20px; 
+  margin-bottom: -330px;
+  margin-left: -200px; 
+  display: block; 
+  position: relative;
+  border-radius: 10px;
+}
+.certificate-1:hover{
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+.certificate-2{
+  width: 600px; 
+  height: 280px;
+  margin-top: 45px; 
+  margin-bottom: -330px;
+  margin-left: 400px; 
+  display: block; 
+  position: relative;
+  border-radius: 10px;
+}
+
+.certificate-2:hover{
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+.certificate-3{
+  width: 600px; 
+  height: 280px;
+  margin-top: 30rem; 
+  margin-bottom: -330px;
+  margin-left: 100px; 
+  display: block; 
+  position: relative;
+  border-radius: 10px;
+}
+.certificate-3:hover{
+  transform: translateY(-10px);
+  cursor: pointer;
+}
